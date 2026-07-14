@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emotion Detector</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 50px; }
+        input[type="text"] { width: 400px; padding: 10px; }
+        input[type="submit"] { padding: 10px 20px; }
+        #result { margin-top: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Emotion Detection</h1>
+    <form action="/emotionDetector" method="get">
+        <input type="text" name="textToAnalyze" placeholder="Enter text to analyze">
+        <input type="submit" value="Run Emotion Analysis">
+    </form>
+    <div id="result"></div>
+</body>
+</html>
